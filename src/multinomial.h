@@ -7,6 +7,8 @@
 #include <numeric>
 #include <ostream>
 
+#include <R.h>
+
 // Author: Dave Barber
 // Code downloaded from from http://home.comcast.net/~tamivox/dave/multinomial/index.html
 // There are no terms and conditions attached to the distribution of this code.

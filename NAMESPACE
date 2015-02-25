@@ -1,9 +1,11 @@
-## exports
+useDynLib(multicool)
 export(allPerm)
+export(B)
+export(Bell)
+export(genComp)
 export(initMC)
 export(multinom)
 export(nextPerm)
-
-
-## dynamic library load
-useDynLib("multicool")
+export(S2)
+export(Stirling2)
+importFrom(Rcpp, evalCpp)
