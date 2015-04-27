@@ -1,9 +1,9 @@
-6a3e9695c604bb697d51fb3622c3e74e *DESCRIPTION
+20a41c8126d0bff72912c7951b9fcff1 *DESCRIPTION
 5da8cc8fcb28a734c069b7dca27fbd67 *NAMESPACE
 e9e1e4518e1a45d4a098d33f9373f490 *R/RcppExports.R
 8f036bde83eeeb307b3a739e748d6b57 *R/Stirling2.R
 d68aa77497a77a9cd433731c83ca6a93 *R/allPerm.R
-fc2a892464dd086fd6dbdd4c963c3e60 *R/genComp.R
+5d4b89ad2fb2e42aebdf01af5bac2ad6 *R/genComp.R
 740b633e975ca3a2c9ccdc7421b05c51 *R/initMC.r
 aa31f3a0fd5b06ea8e5e5f56b21b8b8f *R/multinom.R
 16e3c309a2d390e1d89dfb3500ae5089 *R/nextPerm.R
@@ -11,11 +11,11 @@ aa31f3a0fd5b06ea8e5e5f56b21b8b8f *R/multinom.R
 a723dc56b7bf62cec2290dc544013f5a *man/Bell.Rd
 04837bd3d5c59a2477dd26bae61f6e7e *man/Stirling2.Rd
 d00c05f52ad21827123bc1d20dc59465 *man/allPerm.Rd
-ad05639bb701f1c73b9c05b96abc4ed8 *man/genComp.Rd
+aa7b1921537ac91247f56f1570ccfaf8 *man/genComp.Rd
 8cb75b3cc5483a4989a16d48024e7175 *man/initMC.Rd
 40a736ed00c19278d83fc1eefa057023 *man/multinom.Rd
 787a410c24208f1772abda5388fd1e00 *man/nextPerm.Rd
-4b5d2dba189d48457bbf35392d20e599 *src/RcppExports.cpp
+1479eb9c3e9df7457afe4174be87c481 *src/RcppExports.cpp
 b18b7e9e5912cf1014aa2c2fa8e86047 *src/compositions.cpp
-e53e7d745338b51d781573b6b87d7622 *src/multicool.cpp
+0d728b4e4ad56d4c8cf20098226f9923 *src/multicool.cpp
 62c660482671757c5490a422d955cbe1 *src/multinomial.h
