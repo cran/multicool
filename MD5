@@ -1,12 +1,12 @@
-20a41c8126d0bff72912c7951b9fcff1 *DESCRIPTION
+ba3d342729bc7ef95816e099c9fee8b0 *DESCRIPTION
 5da8cc8fcb28a734c069b7dca27fbd67 *NAMESPACE
 e9e1e4518e1a45d4a098d33f9373f490 *R/RcppExports.R
 8f036bde83eeeb307b3a739e748d6b57 *R/Stirling2.R
-d68aa77497a77a9cd433731c83ca6a93 *R/allPerm.R
+2de419bf56f75f327c4ef9f9ad31c08c *R/allPerm.R
 5d4b89ad2fb2e42aebdf01af5bac2ad6 *R/genComp.R
-740b633e975ca3a2c9ccdc7421b05c51 *R/initMC.r
+c14e8f23f76a1a926f2364686f62e9eb *R/initMC.r
 aa31f3a0fd5b06ea8e5e5f56b21b8b8f *R/multinom.R
-16e3c309a2d390e1d89dfb3500ae5089 *R/nextPerm.R
+a221e0c16c2320dd345d499bdde293c1 *R/nextPerm.R
 4c2f2ae1b1715f46b35dffa29d625ceb *README.md
 a723dc56b7bf62cec2290dc544013f5a *man/Bell.Rd
 04837bd3d5c59a2477dd26bae61f6e7e *man/Stirling2.Rd
@@ -17,5 +17,5 @@ aa7b1921537ac91247f56f1570ccfaf8 *man/genComp.Rd
 787a410c24208f1772abda5388fd1e00 *man/nextPerm.Rd
 1479eb9c3e9df7457afe4174be87c481 *src/RcppExports.cpp
 b18b7e9e5912cf1014aa2c2fa8e86047 *src/compositions.cpp
-0d728b4e4ad56d4c8cf20098226f9923 *src/multicool.cpp
+b7f838689ff25cca49539cd9b1d8feaf *src/multicool.cpp
 62c660482671757c5490a422d955cbe1 *src/multinomial.h
