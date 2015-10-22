@@ -1,10 +1,10 @@
-ba3d342729bc7ef95816e099c9fee8b0 *DESCRIPTION
+8899c5bf69b889aa090367ded6aec2d7 *DESCRIPTION
 5da8cc8fcb28a734c069b7dca27fbd67 *NAMESPACE
 e9e1e4518e1a45d4a098d33f9373f490 *R/RcppExports.R
 8f036bde83eeeb307b3a739e748d6b57 *R/Stirling2.R
 2de419bf56f75f327c4ef9f9ad31c08c *R/allPerm.R
 5d4b89ad2fb2e42aebdf01af5bac2ad6 *R/genComp.R
-c14e8f23f76a1a926f2364686f62e9eb *R/initMC.r
+2b731977902ee1f05bb23cb55317aa05 *R/initMC.r
 aa31f3a0fd5b06ea8e5e5f56b21b8b8f *R/multinom.R
 a221e0c16c2320dd345d499bdde293c1 *R/nextPerm.R
 4c2f2ae1b1715f46b35dffa29d625ceb *README.md

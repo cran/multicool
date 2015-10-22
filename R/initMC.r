@@ -42,6 +42,6 @@ initMC = function(x){
       return(mcObj)
     }
   }else{
-    stop("The permutations of a vector of length 1 are not very interesting")
+    warning("The permutations of a vector of length 1 are not very interesting")
   }
 }
