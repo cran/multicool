@@ -33,6 +33,8 @@ etc */
 
 // C++ version: James M. Curran (j.curran@auckland.ac.nz)
 
+// [[Rcpp::plugins("cpp11")]]
+
 class Multicool{
   struct list_el {
     int v;
@@ -104,7 +106,7 @@ private:
   void debugPrint(void){
     char strPtr[] = {'h', 't', 'i'};
     
-    for(int ctr = 0; ctr  < 3; ctr++){
+    for(auto ctr = 0; ctr  < 3; ctr++){
       item *p; 
       switch(ctr){
         case 0:
@@ -134,13 +136,13 @@ private:
     Rprintf("m_bFirst %d\n", (int)m_bFirst);
     
     Rprintf("m_pnInitialState: ");
-    for(int ctr = 0; ctr < m_nLength; ctr++){
+    for(auto ctr = 0; ctr < m_nLength; ctr++){
       Rprintf("%d ", m_pnInitialState[ctr]);
     }
     Rprintf("\n");
     
     Rprintf("m_pnCurrState: ");
-    for(int ctr = 0; ctr < m_nLength; ctr++){
+    for(auto ctr = 0; ctr < m_nLength; ctr++){
       Rprintf("%d ", m_pnCurrState[ctr]);
     }
     Rprintf("\n");
@@ -228,14 +230,14 @@ public:
     this->reset();
     vector<int> set = this->getInitialState();
     
-    List lResult;
+    auto lResult = vector<vector<int>>();
     
     while( this->hasNext()){
-      //this->print();
+      if (lResult.size() % 1000 == 0) Rcpp::checkUserInterrupt();
       lResult.push_back( this->getState() );
     }
     
-    return lResult;
+    return wrap(lResult);
   };
   
   int getLength(void){
